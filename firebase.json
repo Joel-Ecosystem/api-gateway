@@ -1,0 +1,48 @@
+{
+  "hosting": {
+    "public": "public",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [
+      {
+        "source": "/referred-prospects",
+        "function": "ecosystem-getReferredProspects"
+      },
+      {
+        "source": "/light-users",
+        "function": "ecosystem-getAllLightUsers"
+      },
+      {
+        "source": "/full-users",
+        "function": "ecosystem-getAllFullUsers"
+      },
+      {
+        "source": "/allocate-tokens",
+        "function": "ecosystem-allocateTokens"
+      },
+      {
+        "source": "/register-light-user",
+        "function": "ecosystem-registerLightUser"
+      },
+      {
+        "source": "/user-token-earnings",
+        "function": "ecosystem-userTokenEarning"
+      },
+      {
+        "source": "/user-token-balance",
+        "function": "ecosystem-userLiveToken"
+      },
+      {
+        "source": "/user-token-spending-by-ecopay",
+        "function": "ecosystem-userTokenSpendingByEcopay"
+      },
+      {
+        "source": "/navigate-user-to-page",
+        "function": "ecosystem-navigateUsertoPage"
+      },
+      {
+        "source": "/change-user-type",
+        "function": "ecosystem-changeUserType"
+      }
+    ]
+  }
+}
