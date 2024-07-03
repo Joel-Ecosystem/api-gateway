@@ -1,5 +1,14 @@
 {
   "projects": {
-    "default": "eco-api-hub"
+    "default": "boltconcierge-2f0f9"
+  },
+  "targets": {
+    "boltconcierge-2f0f9": {
+      "hosting": {
+        "ecosystem-api": [
+          "ecosystem-api"
+        ]
+      }
+    }
   }
 }
