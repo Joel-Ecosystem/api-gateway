@@ -46,6 +46,14 @@
           "function": "ecosystem-changeUserType"
         },
         {
+          "source": "/v1/get-transaction",
+          "function": "/ecosystem-getTransaction"
+        },
+        {
+          "source": "/v1/post-transaction",
+          "function": "ecosystem-postTransaction"
+        },
+        {
           "source": "/",
           "destination": "/index.html"
         },
